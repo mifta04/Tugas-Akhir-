@@ -16,13 +16,14 @@
         <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="vertical"
+        android:background="@drawable/gradientbackground">
 
             <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                 <LinearLayout
-                        android:background="@drawable/gradientbackground"
+                        android:background="@drawable/bgsatu"
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
                         android:orientation="vertical">
@@ -73,7 +74,7 @@
                     <ImageView
                             android:layout_width="36dp"
                             android:layout_height="36dp"
-                            android:src="@drawable/umi"
+                            android:src="@drawable/bgdua"
                             tools:ignore="VectorDrawableCompat"
                             android:visibility="gone"/>
                     <LinearLayout android:layout_width="match_parent"

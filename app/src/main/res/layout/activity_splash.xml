@@ -8,13 +8,13 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:orientation="vertical"
-        android:background="#000080"
+        android:background="@drawable/bgdua"
         tools:context=".SplashActivity">
 
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Selamat Datang"
+            android:text="Hi..."
             android:textColor="#FFFF"
             android:paddingTop="20dp"
             android:textSize="20dp"
@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_gravity="center_vertical"
-            android:text="Mulai"
+            android:text="Selamat datang"
             android:textColor="@android:color/holo_red_dark"
             android:textSize="20dp"
             android:id="@+id/btnStart"/>

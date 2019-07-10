@@ -94,7 +94,7 @@ class ProfilFragment : Fragment() {
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe({
                 items.clear()
-                items = it.data as ArrayList<DataItemModel>
+                items = it.data as ArrayList <DataItemModel>
                 for (i: Int in items.indices) {
                     nik.text = items.get(i).nik
                     nisn.text = items.get(i).nisn
@@ -125,8 +125,8 @@ class ProfilFragment : Fragment() {
                             .override(512, 512).error(R.drawable.error_image).into(ivImageProfile)
                     }
                     if (BuildConfig.NPM.equals("16670091")) {
-                        nik.text = "Kepo"
-                        nisn.text = "Kepo"
+                        nik.text = "Rahasia"
+                        nisn.text = "Rahasia"
                         activity?.let { it1 ->
                             Glide.with(it1).load("http://sia.upgris.ac.id/apps/uploads/pict_simhs_nya/16670091.jpg")
                                 .override(512, 512).error(R.drawable.error_image).into(ivImageProfile)
